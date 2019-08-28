@@ -37,9 +37,9 @@ def parse_args():
 
 def main():
 
-    # print("os.environ path are ", os.environ["PATH"])
-    # print("os.pathsep are ", os.pathsep)
-    # os.environ["PATH"] += os.pathsep + os.getcwd()
+    print("os.environ path are ", os.environ["PATH"])
+    print("os.pathsep are ", os.pathsep)
+    os.environ["PATH"] += os.pathsep + os.getcwd()
 
     args = parse_args()
 
