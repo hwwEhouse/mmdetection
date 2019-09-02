@@ -17,9 +17,10 @@ import torch
 
 from mmcv.utils import config
 import torch
-from mmcv.parallel import MMDataParallel, MMDistributedDataParallel
-from mmcv.runner import DistSamplerSeedHook, Runner, obj_from_dict
 
+
+from mmcv.mmcv.parallel import MMDataParallel, MMDistributedDataParallel
+from mmcv.mmcv.runner import DistSamplerSeedHook, Runner, obj_from_dict
 
 
 def parse_args():
